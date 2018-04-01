@@ -9,7 +9,6 @@ function updatePlaylist(list, name, title){
   
   return Object.assign(list, {[name]: title})
   
-  
 }
 
 function removeFromPlaylist(list, name){
