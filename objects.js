@@ -7,7 +7,8 @@ var playlist = {
 
 function updatePlaylist(list, name, title){
   
-  Object.assign(list, {[name]: title})
+  return Object.assign(list, {[name]: title})
+  
   
 }
 
